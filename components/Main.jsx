@@ -30,8 +30,8 @@ export default function Main() {
                 <button>Add ingredient</button>
             </form>
             
-            <IngredientsList ingredients={ingredients} toggleRecipeShown={toggleRecipeShown} />
-            <Recipe recipeShown={recipeShown} />
+            {ingredients.length > 0 && <IngredientsList ingredients={ingredients} toggleRecipeShown={toggleRecipeShown} />}
+            {recipeShown && <Recipe/>}
         </main>
     )
 }
