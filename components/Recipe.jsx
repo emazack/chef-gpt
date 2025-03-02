@@ -5,7 +5,7 @@ export default function Recipe(props) {
 
     return (
         <section>
-            <ReactMarkdown>
+            <ReactMarkdown className="suggested-recipe-container">
                 {props.recipe}
             </ReactMarkdown>
         </section>
