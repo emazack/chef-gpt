@@ -4,10 +4,12 @@ import ReactMarkdown from 'react-markdown'
 export default function Recipe(props) {
 
     return (
-        <section>
-            <ReactMarkdown className="suggested-recipe-container">
-                {props.recipe}
-            </ReactMarkdown>
-        </section>
+        <>
+            <section className="suggested-recipe-container">
+                <ReactMarkdown aria-live="polite">
+                    {props.recipe}
+                </ReactMarkdown>
+            </section>
+        </>
     )
 }
