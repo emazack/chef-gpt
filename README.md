@@ -59,18 +59,18 @@ Chef GPT is a web application that suggests recipes based on the ingredients you
 
 ### Key Files and Directories
 
-- [App.jsx](http://_vscodecontentref_/0): Main application component.
-- [components](http://_vscodecontentref_/1): Contains React components like [Header](http://_vscodecontentref_/2), [IngredientsList](http://_vscodecontentref_/3), [Loader](http://_vscodecontentref_/4), [Main](http://_vscodecontentref_/5), and [Recipe](http://_vscodecontentref_/6).
-- [ai.js](http://_vscodecontentref_/7): Contains the logic for interacting with the serverless function.
-- [get-recipe.js](http://_vscodecontentref_/8): Serverless function to handle API requests securely.
-- [index.jsx](http://_vscodecontentref_/9): Entry point for the React application.
-- [index.css](http://_vscodecontentref_/10): Global styles for the application.
-- [vite.config.js](http://_vscodecontentref_/11): Configuration for Vite.
-- [eslint.config.js](http://_vscodecontentref_/12): Configuration for ESLint.
+- App.jsx: Main application component.
+- components: Contains React components like Header, IngredientsList, Loader, Main, and Recipe.
+- ai.js: Contains the logic for interacting with the serverless function.
+- get-recipe.js: Serverless function to handle API requests securely.
+- index.jsx: Entry point for the React application.
+- index.css: Global styles for the application.
+- vite.config.js: Configuration for Vite.
+- eslint.config.js: Configuration for ESLint.
 
 ## Environment Variables
 
-The Hugging Face access token is managed through environment variables configured on Vercel. Ensure you set the [VITE_HF_ACCESS_TOKEN](http://_vscodecontentref_/13) variable in your Vercel project settings.
+The Hugging Face access token is managed through environment variables configured on Vercel. Ensure you set the `VITE_HF_ACCESS_TOKEN` variable in your Vercel project settings.
 
 ## Contributing
 
