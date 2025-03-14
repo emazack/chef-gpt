@@ -5,7 +5,7 @@ import { getRecipeFromMistral } from "../services/ai.js"
 
 export default function Main() {
 
-    const [ingredients, setIngredients] = React.useState(["pasta", "tomato", "garlic", "olive oil"])
+    const [ingredients, setIngredients] = React.useState([])
     const [isLoading, setIsLoading] = React.useState(false)
     const [recipe, setRecipe] = React.useState("")
     
