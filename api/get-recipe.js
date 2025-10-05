@@ -22,7 +22,8 @@ export default async function handler(req, res) {
 
     try {
         const response = await hf.chatCompletion({
-            model: "mistralai/Mixtral-8x7B-Instruct-v0.1",
+            // model: "mistralai/Mixtral-8x7B-Instruct-v0.1",
+            model: "distilbert/distilgpt2",
             messages: [
                 { role: "system", content: SYSTEM_PROMPT },
                 { role: "user", content: `I have ${ingredientsString}. Please give me a recipe you'd recommend I make!` },
