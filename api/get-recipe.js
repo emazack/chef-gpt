@@ -18,7 +18,7 @@ export default async function handler(req, res) {
 
     const { ingredients } = req.body;
     const ingredientsString = ingredients.join(", ");
-    const hf = new HfInference(process.env.VITE_HF_ACCESS_TOKEN);
+    const hf = new HfInference(process.env.HF_ACCESS_TOKEN);
 
     try {
         const response = await hf.chatCompletion({

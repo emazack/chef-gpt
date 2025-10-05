@@ -70,7 +70,7 @@ Chef GPT is a web application that suggests recipes based on the ingredients you
 
 ## Environment Variables
 
-The Hugging Face access token is managed through environment variables configured on Vercel. Ensure you set the `VITE_HF_ACCESS_TOKEN` variable in your Vercel project settings.
+The Hugging Face access token is managed through environment variables configured on Vercel. Ensure you set the `HF_ACCESS_TOKEN` variable in your Vercel project settings.
 
 ## Contributing
 
